@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T11:32:56 IST" name="Default suite" finished-at="2024-08-05T11:33:40 IST" duration-ms="43882">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T11:32:56 IST" name="Default test" finished-at="2024-08-05T11:33:40 IST" duration-ms="43882">
+      <class name="Script.OrgCreateWithNumber">
+        <test-method is-config="true" signature="databaseconnection()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:32:56 IST" name="databaseconnection" finished-at="2024-08-05T11:32:56 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- databaseconnection -->
+        <test-method is-config="true" signature="paralell()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:32:57 IST" name="paralell" finished-at="2024-08-05T11:32:57 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paralell -->
+        <test-method is-config="true" signature="nevigateandlaunch()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:32:57 IST" name="nevigateandlaunch" finished-at="2024-08-05T11:33:07 IST" duration-ms="10189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nevigateandlaunch -->
+        <test-method is-config="true" signature="login()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:33:07 IST" name="login" finished-at="2024-08-05T11:33:16 IST" duration-ms="9462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="crateWithNumber()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:33:16 IST" name="crateWithNumber" finished-at="2024-08-05T11:33:36 IST" duration-ms="20043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crateWithNumber -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:33:36 IST" name="logout" finished-at="2024-08-05T11:33:40 IST" duration-ms="4102" status="FAIL">
+          <exception class="org.openqa.selenium.json.JsonException">
+            <message>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4758874466d789c972a7bbbdb29994e, actions {actions=[org.openqa.selenium.interactions.Sequence@103082dd]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57038/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4758874466d789c972a7bbbdb29994e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4758874466d789c972a7bbbdb29994e, actions {actions=[org.openqa.selenium.interactions.Sequence@103082dd]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57038/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4758874466d789c972a7bbbdb29994e
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:520)
+at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:182)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:204)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+at org.openqa.selenium.json.JsonOutput.lambda$new$23(JsonOutput.java:204)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:222)
+at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:68)
+at org.openqa.selenium.json.JsonOutput.lambda$new$25(JsonOutput.java:217)
+at org.openqa.selenium.json.JsonOutput.write0(JsonOutput.java:409)
+at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:400)
+at org.openqa.selenium.json.Json.toJson(Json.java:133)
+at org.openqa.selenium.json.Json.toJson(Json.java:119)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:280)
+at org.openqa.selenium.remote.codec.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:130)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:179)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:693)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:598)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:567)
+at Generic.WebDriverUtility.moveToElement(WebDriverUtility.java:32)
+at Generic.BaseClass.logout(BaseClass.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:431)
+at org.openqa.selenium.json.Json.toJson(Json.java:131)
+... 45 more
+Caused by: java.lang.reflect.InvocationTargetException
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:516)
+... 66 more
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Organization Name Already Exists!}
+  (Session info: chrome=127.0.6533.89): Organization Name Already Exists!
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c4758874466d789c972a7bbbdb29994e, findElement {using=xpath, value=//td[@onmouseover="fnDropDownUser(this,'ondemand_sub','~admindk@gmail.com`');"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57038/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4758874466d789c972a7bbbdb29994e
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
+at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:259)
+at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:208)
+at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:72)
+at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:81)
+... 71 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:33:40 IST" name="closebrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1722837820873" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="closedb()[pri:0, instance:Script.OrgCreateWithNumber@61001b64]" started-at="2024-08-05T11:33:41 IST" name="closedb" finished-at="2024-08-05T11:33:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedb -->
+      </class> <!-- Script.OrgCreateWithNumber -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
